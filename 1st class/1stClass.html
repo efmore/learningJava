@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>1st class</title>
+</head>
+<body>
+
+  <script>
+
+    console.log('Hellow World')
+    var number = 10;
+    console.log(number)
+
+    // Circle area
+    var pi = 3.1416
+    var r = 5
+    var areaCircule = pi *(r**2)
+    console.log(Math.round(areaCircule))
+    console.log("The circile area is "+areaCircule)
+
+    // Promedio
+    var num1 = 5
+    var num2 = 10
+    var num3 = 7
+    var avgNums = Math.round(parseFloat((num1+num2+num3)/3))
+    console.log(avgNums)
+    console.log("The average is "+avgNums)
+
+    //comparacion
+    var num4 = 10;
+    console.log(number <= 10)
+
+    var num5 = 135
+    console.log(number >= 130)
+
+    //Múltiplos de 3
+    var num6 = 200
+    var num7 = 450
+    var multnum6 = num6&3 == 0
+    var multnum7 = num6&3 == 0
+    var grandTotal = (multnum6 && multnum7)
+    console.log(multnum6, multnum7, grandTotal)
+
+    // dos grupos con tres alumnos cada grupo, cada alumno tiene una calificacion
+    //vean, sacar el promedio de cada grupo y  si la calificacion del promedio de los dos grupos es mayor a 6, pasan
+
+    // Grupo A
+    var A1 = 9
+    var A2 = 8
+    var A3 = 6
+    var avgA = ((A1 + A2 + A3)/(3))
+    console.log(avgA)
+
+    //Grupo B
+    var B1 = 10
+    var B2 = 8
+    var B3 = 6
+    var avgB = ((B1 + B2 + B3)/(3))
+    console.log(avgB)
+
+    // Prom + Eval Gral
+    var avgGral = ((avgA + avgB)/2)
+    var avgGoal = avgGral >= 6
+    console.log("The result is "+avgGral+" so the goal is "+avgGoal);
+
+
+  </script>
+
+</body>
+</html>
