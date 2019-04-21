@@ -121,17 +121,23 @@ koders_array.forEach(function(element){
 }))})
 
 console.log('3');
-const videogames_koders = koders_array.filter(function(element){
-  return element.name
+
+// intento 1 -> fail
+// const videogames_koders = koders_array.filter(function(element){
+//   return element.hobbies
+//   element.hobbies.forEach(function(element){
+//     element == 'Videojuegos'
+//   })
+//   return element.name
+// })
+// console.log(videogames_koders);
+
+// intento 2 -> suma de indexOf()
+const videogames_koders = koders_array.forEach(function(element){
+  return element.hobbies
   element.hobbies.forEach(function(element){
-    return element == 'videojuegos'
-})})
 
-console.log(videogames_koders);
-
-
-koders_array.filter(function(element){
-  var filter_elements = elements.hobbies.ma(function(element {
-    return
-  }))
+  })
+  return element.nombre
 })
+console.log(videogames_koders);
