@@ -51,8 +51,9 @@ function Person(name,lName1,lName2,bornDate,gender) {
 }
 
 people_array.forEach(function(obj) {
-  var person = new Person(obj.name,obj.lName1,obj.lName2,obj.bornDate,obj.gender)
-  console.log(person.getCURP());
+  console.log(obj.getDate);
+  // var person = new Person(obj.name,obj.lName1,obj.lName2,obj.bornDate,obj.gender)
+  // console.log(person.getCURP());
 })
 
 
