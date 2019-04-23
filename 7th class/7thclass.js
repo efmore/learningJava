@@ -64,22 +64,22 @@ var divs_array = [
 },
 {
   'height':'100px',
-  'width':'200px',
+  'width':'300px',
   'backgroundColor':'green',
 },
 {
   'height':'100px',
-  'width':'200px',
+  'width':'400px',
   'backgroundColor':'blue',
 },
 {
   'height':'100px',
-  'width':'200px',
+  'width':'500px',
   'backgroundColor':'yellow',
 },
 {
   'height':'100px',
-  'width':'200px',
+  'width':'600px',
   'backgroundColor':'black',
 },
 ]
